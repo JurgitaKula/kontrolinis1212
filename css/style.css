@@ -14,6 +14,7 @@
 max-width: 1000px;
 margin-left: 5%;
 margin-right: 5%;
+margin: auto;
 }
 
 
@@ -25,7 +26,11 @@ h1, h2, a {
 p{
   font-family:"Roboto", sans-serif;
   font-size: 1.2rem;
+color: #666666;
+}
 
+.GAP{
+  margin-bottom: 25px;
 }
 /* ------------------HEader--------------- */
 .logo h1{
@@ -74,7 +79,8 @@ font-weight: 400;
 nav{
   display: flex;
   justify-content: space-around;
-  
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 
 }
 
@@ -136,17 +142,9 @@ font-weight: 300;
 .registration__form--form{
   flex: 2;
 }
-
-
-
-
-
 }
 /* isijungia dar vienas css kai didesnis , rasome po */
-@media only screen and (min-width: 641px){
-  .b {}
-  .a {}
-}
+
 
 label {
   font-size: 1.2rem;
@@ -154,67 +152,17 @@ label {
 
 }
 
-
-
-
-
-
-
-/* forma */
-/* body {
-  background: #f6f7f9;
-  display: flex;
-  justify-content: center;
-  padding: 40px 0;
-}
-.contact-wrapper {
-  width: 100%;
-  max-width: 600px;
-  background: #fff;
-  padding: 30px;
-  border-radius: 6px;
+input{
+  margin-bottom: 1rem;
+  margin-top: 0.4rem;
 }
 
-.contact-wrapper h2 {
-  text-align: center;
-  margin-bottom: 25px;
-  color: #2c2c2c;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 14px;
-  margin-bottom: 15px;
-  border: 1px solid #cfd6e0;
-  border-radius: 4px;
-  font-size: 14px;
-  }
-
-.contact-form textarea {
-  resize: vertical;
-}
-
-.contact-form button {
-  width: 100%;
-  padding: 14px;
-  background: #6aa5ff;
+button{
+  background-color: #B58FBF;
+  padding: 0.8rem;
   color: #fff;
+  border-radius: 8px;
   border: none;
-  border-radius: 4px;
-  font-size: 16px;
-  cursor: pointer;
+ cursor: pointer;
+ font-size: 1.3rem;
 }
-
-.contact-form button:hover {
-  background: #4f8ef7;
-}
- */
-
-
-
-/* isijungia dar vienas css kai didesnis */
-/* @media only screen and (min-width: 600px){
-  .b {}
-  .a {}
-} */
