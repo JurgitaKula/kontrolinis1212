@@ -1,11 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dancing school</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!-- ------wrapper starts----- -->
+    <div class="wrapper">
+      <!-- ---header starts----- -->
+      <header>
+        <div>
+          <div class="header_top">
+            <div class="logo">
+              <h1>M O V E</h1>
+              <p>Vardas Pavardė Grupė</p>
+            </div>
+            <div class="Header_search">
+              <p>Dance Performance</p>
+
+              <input
+                type="text"
+                placeholder="Search by Dance Performance Name"
+                required
+              />
+            </div>
+          </div>
+
+          <div>
+            <hr />
+          </div>
+
+          <div>
+            <nav>
+              <div><a href="#Home">Home</a></div>
+              <div><a href="#About">About</a></div>
+              <div><a href="#Clases">Clases</a></div>
+              <div><a href="#Staf">Staf</a></div>
+            </nav>
+            <div class="header__foto">
+              <img src="images/slide-2.jpg" alt="group" />
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- ---header ends----- -->
+      <!-- -----main starts----- -->
+      <main>
+        <section class="registration__form">
+          <div class="registration__foto">
+            <div class="registration_image--mobile">
+              <img src="images/slide-3.jpg" alt="" srcset="" />
+            </div>
+            <div class="registration_image--desktop">
+              <img src="images/page1_img1.jpg" alt="" srcset="" />
+            </div>
+          </div>
+          <div class="registration__form--form">
+            <form class="registration--form">
+              <label for="fname">Firstname:</label>
+              <input type="text" placeholder="Firstname" required />
+              <label for="lname">Lastname:</label>
+              <input type="text" placeholder="Lastname" required />
+              <label for="age">Age Groups:</label>
+              <input type="text" placeholder="--Select--" required />
+
+              <label for="pname">The name of the dance performance</label>
+              <input
+                type="text"
+                placeholder="The name of the dance performance"
+                required
+              />
+              <label for="url">First name:</label>
+              <input type="url" placeholder="URL" required />
+            </form>
+          </div>
+        </section>
+      </main>
+      <!-- -----main ends----- -->
+
+      <!-- ---footer starts---- -->
+      <footer></footer>
+      <!-- ---footer ends---- -->
+    </div>
+    <!-- ----wrapper ends ---- -->
+
+    <!-- <div class="contact-wrapper">
+    <h2>We'd love to hear from you</h2>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Full name" required />
+      <input type="email" placeholder="Email address" required />
+      <input type="tel" placeholder="Phone number" />
+      <textarea placeholder="Message" rows="5"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div> -->
+  </body>
 </html>
